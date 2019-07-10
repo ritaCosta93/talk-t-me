@@ -68,6 +68,36 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the numbers screen" label="Numbers Button"/>
                                 <state key="normal" backgroundImage="numbers-btn"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGU-HA-JW1" userLabel="me-btn">
+                                <rect key="frame" x="173" y="160" width="132" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Me Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvr-bA-cKY" userLabel="you-btn">
+                                <rect key="frame" x="327" y="160" width="132" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="You Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8y-4v-yT9" userLabel="he-btn">
+                                <rect key="frame" x="479" y="160" width="132" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="He Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jng-FS-kds" userLabel="she-btn">
+                                <rect key="frame" x="173" y="319" width="132" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="She Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsm-Ef-PMg" userLabel="we-btn">
+                                <rect key="frame" x="327" y="319" width="132" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="He Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3x-0A-XSh" userLabel="they-btn">
+                                <rect key="frame" x="479" y="319" width="132" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="They Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="y2P-hP-iEu"/>
@@ -75,10 +105,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t6Q-HJ-yS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6" y="106"/>
+            <point key="canvasLocation" x="-6.4453125" y="105.46875"/>
         </scene>
     </scenes>
     <resources>
+        <image name="He Button" width="270" height="269"/>
+        <image name="Me Button" width="270" height="269"/>
+        <image name="She Button" width="270" height="269"/>
+        <image name="They Button" width="270" height="269"/>
+        <image name="You Button" width="270" height="269"/>
         <image name="colors-btn" width="110" height="115"/>
         <image name="emotions-btn" width="110" height="115"/>
         <image name="food-btn" width="110" height="115"/>
