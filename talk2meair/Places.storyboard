@@ -97,6 +97,15 @@
                         <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="xV9-fG-e0R"/>
                     </view>
+                    <connections>
+                        <outlet property="colorsBtn" destination="kJ7-YU-y4e" id="lAF-gq-IY1"/>
+                        <outlet property="emotionsBtn" destination="G3h-3O-tMC" id="Yvg-i6-C33"/>
+                        <outlet property="foodBtn" destination="osQ-27-NG1" id="hK6-rV-FYf"/>
+                        <outlet property="homeBtn" destination="XLP-eu-0yX" id="dVj-Jh-OjY"/>
+                        <outlet property="numbersBtn" destination="hHU-Kc-oVc" id="7Ul-fJ-01b"/>
+                        <outlet property="peopleBtn" destination="2SL-8G-2DC" id="1Rm-HM-r0i"/>
+                        <outlet property="placesBtn" destination="Kfe-3F-0cB" id="C8u-Mo-xas"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hP6-2b-bgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

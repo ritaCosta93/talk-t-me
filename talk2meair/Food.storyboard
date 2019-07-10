@@ -102,6 +102,15 @@
                         <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="bM6-bd-HFK"/>
                     </view>
+                    <connections>
+                        <outlet property="colorsBtn" destination="u3o-5r-ub0" id="YHk-CC-KhW"/>
+                        <outlet property="emotionsBtn" destination="aeD-Uz-7p3" id="pQa-BG-xM7"/>
+                        <outlet property="foodBtn" destination="foy-M0-aXc" id="Olj-Ap-xv6"/>
+                        <outlet property="homeBtn" destination="cE6-eO-CGo" id="RV5-KC-QmO"/>
+                        <outlet property="numbersBtn" destination="ETV-zS-IIA" id="6yD-NW-xHo"/>
+                        <outlet property="peopleBtn" destination="RTM-KE-w8Y" id="kTI-4q-GBZ"/>
+                        <outlet property="placesBtn" destination="GqS-a1-Rpy" id="0Mm-iC-mae"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLo-uF-3i1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
