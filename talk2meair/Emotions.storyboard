@@ -73,6 +73,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Happy Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yk-es-p1F" userLabel="sad-btn">
+                                <rect key="frame" x="364" y="190" width="151" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Sad Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPc-1W-BP2" userLabel="sick-btn">
+                                <rect key="frame" x="538" y="190" width="151" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Sick Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHN-ln-nrm" userLabel="hot-btn">
+                                <rect key="frame" x="190" y="356" width="151" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Hot Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfA-ic-j9I" userLabel="cold-btn">
+                                <rect key="frame" x="364" y="356" width="151" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Cold Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="rmr-EK-Fva"/>
@@ -84,7 +104,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Cold Button" width="268" height="253"/>
         <image name="Happy Button" width="270" height="255"/>
+        <image name="Hot Button" width="266" height="255"/>
+        <image name="Sad Button" width="268" height="257"/>
+        <image name="Sick Button" width="268" height="255"/>
         <image name="colors-btn" width="110" height="115"/>
         <image name="emotions-btn" width="110" height="115"/>
         <image name="food-btn" width="110" height="115"/>
