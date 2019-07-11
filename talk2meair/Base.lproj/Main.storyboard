@@ -88,6 +88,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the people screen" label="People Button"/>
                                 <state key="normal" image="people-btn"/>
                                 <connections>
+                                    <action selector="speakPeople:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0r0-Hg-qkv"/>
                                     <segue destination="a8v-Ds-qPf" kind="show" id="cz1-ax-Dpc"/>
                                 </connections>
                             </button>
@@ -97,6 +98,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the food screen" label="Food Button"/>
                                 <state key="normal" backgroundImage="food-btn"/>
                                 <connections>
+                                    <action selector="speakFood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="max-SI-kJy"/>
                                     <segue destination="ZbX-uH-nVl" kind="show" id="Sk9-md-14a"/>
                                 </connections>
                             </button>
@@ -106,6 +108,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the places screen" label="Places Button"/>
                                 <state key="normal" backgroundImage="places-btn"/>
                                 <connections>
+                                    <action selector="speakPlaces:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ifb-Nm-t2W"/>
                                     <segue destination="TLu-fZ-LHW" kind="show" id="PdY-BB-XZF"/>
                                 </connections>
                             </button>
@@ -115,6 +118,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the emotions screen" label="Emotions Button"/>
                                 <state key="normal" backgroundImage="emotions-btn"/>
                                 <connections>
+                                    <action selector="speakEmotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Fy-m2-O0r"/>
                                     <segue destination="3hQ-bq-MdI" kind="show" id="Mf5-es-OzO"/>
                                 </connections>
                             </button>
@@ -124,6 +128,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the colors screen" label="Colors Button"/>
                                 <state key="normal" backgroundImage="colors-btn"/>
                                 <connections>
+                                    <action selector="speakColors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wZ2-Lk-qgC"/>
                                     <segue destination="OJz-4G-wza" kind="show" id="kdd-im-XFg"/>
                                 </connections>
                             </button>
@@ -133,6 +138,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the numbers screen" label="Numbers Button"/>
                                 <state key="normal" backgroundImage="numbers-btn"/>
                                 <connections>
+                                    <action selector="speakNumbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BLD-Ic-5tM"/>
                                     <segue destination="NKf-31-XvB" kind="show" id="4Sh-9R-SRP"/>
                                 </connections>
                             </button>
@@ -143,6 +149,7 @@
                                 <state key="normal" backgroundImage="home-btn"/>
                                 <connections>
                                     <action selector="homeBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5h-Ti-TfN"/>
+                                    <action selector="speakGoHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HJ7-gS-Lc9"/>
                                     <segue destination="FcC-lz-bUb" kind="show" id="exe-A7-zsN"/>
                                 </connections>
                             </button>
@@ -151,240 +158,360 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="People - Me" label="Me"/>
                                 <state key="normal" backgroundImage="me-btn"/>
+                                <connections>
+                                    <action selector="speakMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1zj-hf-Qz8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTH-l3-kD6" userLabel="you-btn">
                                 <rect key="frame" x="108" y="115" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="People - you" label="You"/>
                                 <state key="normal" backgroundImage="you-btn"/>
+                                <connections>
+                                    <action selector="speakYou:" destination="BYZ-38-t0r" eventType="touchUpInside" id="glJ-Rd-LR0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVr-FJ-GGG" userLabel="they-btn">
                                 <rect key="frame" x="310" y="115" width="93" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="People - They" label="They"/>
                                 <state key="normal" backgroundImage="they-btn"/>
+                                <connections>
+                                    <action selector="speakThey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gEC-D2-Jkd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FrQ-r4-N16" userLabel="he-btn">
                                 <rect key="frame" x="411" y="115" width="93" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="People - He" label="He"/>
                                 <state key="normal" backgroundImage="he-btn"/>
+                                <connections>
+                                    <action selector="speakHe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hp8-P3-vLn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTn-zg-pmx" userLabel="she-btn">
                                 <rect key="frame" x="512" y="115" width="93" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="People - She" label="She"/>
                                 <state key="normal" backgroundImage="she-btn"/>
+                                <connections>
+                                    <action selector="speakShe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bt9-hf-8C7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87z-6Z-NsI" userLabel="we-btn">
                                 <rect key="frame" x="613" y="114" width="93" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="People - We" label="We"/>
                                 <state key="normal" backgroundImage="we-btn"/>
+                                <connections>
+                                    <action selector="speakWe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NbC-xq-IJs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsg-D2-41r" userLabel="bread-btn">
                                 <rect key="frame" x="108" y="218" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Food - Bread" label="Bread"/>
                                 <state key="normal" backgroundImage="bread-btn"/>
+                                <connections>
+                                    <action selector="speakBread:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WCg-cN-OUn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nC-lQ-J0F" userLabel="milk-btn">
                                 <rect key="frame" x="209" y="218" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Food - Milk" label="Milk"/>
                                 <state key="normal" backgroundImage="milk-btn"/>
+                                <connections>
+                                    <action selector="speakMilk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OJl-qG-UpE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WiN-Bx-TB9" userLabel="water-btn">
                                 <rect key="frame" x="310" y="218" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Food - Water" label="Water"/>
                                 <state key="normal" backgroundImage="water-btn"/>
+                                <connections>
+                                    <action selector="speakWater:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ewh-eh-xBS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPi-lX-TFj" userLabel="coffee-btn">
                                 <rect key="frame" x="411" y="218" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Food - Coffee" label="Coffee"/>
                                 <state key="normal" backgroundImage="coffee-btn"/>
+                                <connections>
+                                    <action selector="speakCoffee:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rT1-rT-qad"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hq-B0-60u" userLabel="chips-btn">
                                 <rect key="frame" x="512" y="217" width="93" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Food - Chips" label="Chips"/>
                                 <state key="normal" backgroundImage="chips-btn"/>
+                                <connections>
+                                    <action selector="speakChips:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Z1-No-ttu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgP-qh-yju" userLabel="cookies-btn">
                                 <rect key="frame" x="613" y="217" width="93" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Food - Cookies" label="Cookies"/>
                                 <state key="normal" backgroundImage="cookies-btn"/>
+                                <connections>
+                                    <action selector="speakCookies:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lgB-3U-qpO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3M-Yw-70J" userLabel="places-home-btn">
                                 <rect key="frame" x="108" y="320" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Places - Home" label="Home"/>
                                 <state key="normal" backgroundImage="places-home-btn"/>
+                                <connections>
+                                    <action selector="speakHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ogf-BP-se7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86i-7s-tGj" userLabel="bedroom-btn">
                                 <rect key="frame" x="209" y="320" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Places - Bedroom" label="Bedroom"/>
                                 <state key="normal" backgroundImage="bedroom-btn"/>
+                                <connections>
+                                    <action selector="speakBedroom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNn-tj-pHV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXn-fo-SSa" userLabel="kitchen-btn">
                                 <rect key="frame" x="310" y="320" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Places - Kitchen" label="Kitchen"/>
                                 <state key="normal" backgroundImage="kitchen-btn"/>
+                                <connections>
+                                    <action selector="speakKitchen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sad-HV-q2f"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mga-CW-RbD" userLabel="bathroom-btn">
                                 <rect key="frame" x="411" y="320" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Places - Bathroom" label="Bathroom"/>
                                 <state key="normal" backgroundImage="bathroom-btn"/>
+                                <connections>
+                                    <action selector="speakBathroom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rTf-nv-RmI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bK-gu-ZSk" userLabel="outside-btn">
                                 <rect key="frame" x="512" y="320" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Places - Outside" label="Outside"/>
                                 <state key="normal" backgroundImage="outside-btn"/>
+                                <connections>
+                                    <action selector="speakOutside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecr-wN-E83"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRa-Pe-CtZ" userLabel="happy-btn">
                                 <rect key="frame" x="108" y="427" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Emotions - Happy" label="Happy"/>
                                 <state key="normal" backgroundImage="happy-btn"/>
+                                <connections>
+                                    <action selector="speakHappy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="37M-fi-OA3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zc-iw-lBw" userLabel="sad-btn">
                                 <rect key="frame" x="209" y="427" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Emotions - Sad" label="Sad"/>
                                 <state key="normal" backgroundImage="sad-btn"/>
+                                <connections>
+                                    <action selector="speakSad:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CEs-lP-Ir8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0E-8A-FGP" userLabel="sick-btn">
                                 <rect key="frame" x="310" y="427" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Emotions - Sick" label="Sick"/>
                                 <state key="normal" backgroundImage="sick-btn"/>
+                                <connections>
+                                    <action selector="speakSick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5tM-cq-5bH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7T7-od-s51" userLabel="hot-btn">
                                 <rect key="frame" x="411" y="427" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Emotions - Hot" label="Hot"/>
                                 <state key="normal" backgroundImage="hot-btn"/>
+                                <connections>
+                                    <action selector="speakHot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdN-V0-bfg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZI-td-cG1" userLabel="cold-btn">
                                 <rect key="frame" x="512" y="427" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Emotions - Cold" label="Cold"/>
                                 <state key="normal" backgroundImage="cold-btn"/>
+                                <connections>
+                                    <action selector="speakCold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fps-th-0vB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkq-ox-qII" userLabel="blue-btn">
                                 <rect key="frame" x="108" y="530" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Colors - Blue" label="Blue"/>
                                 <state key="normal" backgroundImage="blue-btn"/>
+                                <connections>
+                                    <action selector="speakBlue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ix-8N-PCI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWC-yX-egQ" userLabel="pink-btn">
                                 <rect key="frame" x="209" y="530" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" label="Pink"/>
                                 <state key="normal" backgroundImage="pink-btn"/>
+                                <connections>
+                                    <action selector="speakPink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lt4-jd-e6s"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBI-yJ-6en" userLabel="purple-btn">
                                 <rect key="frame" x="310" y="530" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Colors - Purple" label="Purple"/>
                                 <state key="normal" backgroundImage="purple-btn"/>
+                                <connections>
+                                    <action selector="speakPurple:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abk-fp-m4i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1w6-pO-Aau" userLabel="cyan-btn">
                                 <rect key="frame" x="411" y="530" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Colors - Cyan" label="Cyan"/>
                                 <state key="normal" backgroundImage="cyan-btn"/>
+                                <connections>
+                                    <action selector="speakCyan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lgF-YD-lBs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egP-EJ-92d" userLabel="yellow-btn">
                                 <rect key="frame" x="512" y="530" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Colors - Yellow" label="Yellow"/>
                                 <state key="normal" backgroundImage="yellow-btn"/>
+                                <connections>
+                                    <action selector="speakYellow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xDf-ja-dSh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDF-UC-Z4A" userLabel="orange-btn">
                                 <rect key="frame" x="613" y="530" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Colors - Orange" label="Orange"/>
                                 <state key="normal" backgroundImage="orange-btn"/>
+                                <connections>
+                                    <action selector="speakOrange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wYt-2Y-shH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0p-pB-ZEZ" userLabel="red-btn">
                                 <rect key="frame" x="714" y="530" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Colors - Red" label="Red"/>
                                 <state key="normal" backgroundImage="red-btn"/>
+                                <connections>
+                                    <action selector="speakRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YYb-B4-4Ck"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4V-az-01o" userLabel="black-btn">
                                 <rect key="frame" x="815" y="530" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Colors - Black" label="Black"/>
                                 <state key="normal" backgroundImage="black-btn"/>
+                                <connections>
+                                    <action selector="Black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CMY-Qe-cKi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecD-Bd-6Db">
                                 <rect key="frame" x="916" y="530" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Colors - White" label="White"/>
                                 <state key="normal" backgroundImage="white-btn"/>
+                                <connections>
+                                    <action selector="speakWhite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OYY-pd-S0c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ap-Qs-TUN" userLabel="one-btn">
                                 <rect key="frame" x="108" y="637" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Numbers - One" label="One"/>
                                 <state key="normal" backgroundImage="one-btn"/>
+                                <connections>
+                                    <action selector="speakOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O3y-S9-zDp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhY-F5-cJe" userLabel="two-btn">
                                 <rect key="frame" x="209" y="637" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Numbers - two" label="Two"/>
                                 <state key="normal" backgroundImage="two-btn"/>
+                                <connections>
+                                    <action selector="speakTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ePB-Df-Rwk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAw-mK-tIT" userLabel="three-btn">
                                 <rect key="frame" x="310" y="637" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Numbers - Three" label="Three"/>
                                 <state key="normal" backgroundImage="three-btn"/>
+                                <connections>
+                                    <action selector="speakThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p43-G6-FIu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlF-8x-RWG" userLabel="four-btn">
                                 <rect key="frame" x="411" y="637" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Numbers - Four" label="Four"/>
                                 <state key="normal" backgroundImage="four-btn"/>
+                                <connections>
+                                    <action selector="speakFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ADN-w8-dOI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ME-gh-DQx" userLabel="five-btn">
                                 <rect key="frame" x="512" y="637" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Numbers - Five" label="Five"/>
                                 <state key="normal" backgroundImage="five-btn"/>
+                                <connections>
+                                    <action selector="speakFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0xf-PD-5hx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9P-WI-bs6" userLabel="six-btn">
                                 <rect key="frame" x="613" y="637" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Numbers - Six" label="Six"/>
                                 <state key="normal" backgroundImage="six-btn"/>
+                                <connections>
+                                    <action selector="speakSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Vl-ab-wvS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4W-yh-KuX" userLabel="seven-btn">
                                 <rect key="frame" x="714" y="637" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Numbers - Seven" label="Seven"/>
                                 <state key="normal" backgroundImage="seven-btn"/>
+                                <connections>
+                                    <action selector="speakSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zBW-8D-Ypm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtL-By-IGH" userLabel="eight-btn">
                                 <rect key="frame" x="815" y="637" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="Numbers - Eight" label="Eight"/>
                                 <state key="normal" backgroundImage="eight-btn"/>
+                                <connections>
+                                    <action selector="speakEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHq-Go-gZe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Px-3s-b5a" userLabel="nine-btn">
                                 <rect key="frame" x="916" y="637" width="93" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" label="Nine"/>
                                 <state key="normal" backgroundImage="nine-btn"/>
+                                <connections>
+                                    <action selector="speakNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9dR-vQ-tKF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
@@ -399,6 +526,7 @@
                         <outlet property="numbersBtn" destination="cgy-oy-h4A" id="osQ-A0-ckh"/>
                         <outlet property="peopleBtn" destination="5ye-cf-YP5" id="e9E-Rf-IcD"/>
                         <outlet property="placesBtn" destination="s5a-pa-N0E" id="BhA-Zl-mVc"/>
+                        <outlet property="speakWhite" destination="8bC-Xf-vdC" id="KuA-0y-0tJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
