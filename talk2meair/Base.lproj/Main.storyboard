@@ -148,7 +148,10 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the home screen" label="Home button"/>
                                 <state key="normal" backgroundImage="home-btn"/>
                                 <connections>
+<<<<<<< HEAD
                                     <action selector="homeBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5h-Ti-TfN"/>
+=======
+>>>>>>> master
                                     <action selector="speakGoHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HJ7-gS-Lc9"/>
                                     <segue destination="FcC-lz-bUb" kind="show" id="exe-A7-zsN"/>
                                 </connections>
