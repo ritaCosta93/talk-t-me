@@ -148,7 +148,6 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the home screen" label="Home button"/>
                                 <state key="normal" backgroundImage="home-btn"/>
                                 <connections>
-                                    <action selector="homeBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5h-Ti-TfN"/>
                                     <action selector="speakGoHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HJ7-gS-Lc9"/>
                                     <segue destination="FcC-lz-bUb" kind="show" id="exe-A7-zsN"/>
                                 </connections>
@@ -526,7 +525,6 @@
                         <outlet property="numbersBtn" destination="cgy-oy-h4A" id="osQ-A0-ckh"/>
                         <outlet property="peopleBtn" destination="5ye-cf-YP5" id="e9E-Rf-IcD"/>
                         <outlet property="placesBtn" destination="s5a-pa-N0E" id="BhA-Zl-mVc"/>
-                        <outlet property="speakWhite" destination="8bC-Xf-vdC" id="KuA-0y-0tJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
