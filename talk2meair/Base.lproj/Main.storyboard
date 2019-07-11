@@ -14,7 +14,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="mainView">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -67,6 +67,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the home screen" label="Home button"/>
                                 <state key="normal" backgroundImage="home-btn"/>
+                                <connections>
+                                    <action selector="homeBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5h-Ti-TfN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVa-KS-z1L" userLabel="me-btn">
                                 <rect key="frame" x="209" y="115" width="93" height="95"/>
@@ -315,10 +318,11 @@
                     <connections>
                         <outlet property="colorsBtn" destination="qe6-RU-zGQ" id="4K5-e6-HIb"/>
                         <outlet property="emotionsBtn" destination="t8a-67-7PM" id="K2T-mw-mSB"/>
-                        <outlet property="foodBtn" destination="c18-1p-4nQ" id="hPb-Bc-fuh"/>
+                        <outlet property="foodBtn" destination="c18-1p-4nQ" id="YUg-LC-hWE"/>
                         <outlet property="homeBtn" destination="X5m-wK-aHh" id="af2-f6-3kL"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="3zy-3j-wq4"/>
                         <outlet property="numbersBtn" destination="cgy-oy-h4A" id="osQ-A0-ckh"/>
-                        <outlet property="peopleBtn" destination="c18-1p-4nQ" id="LX5-qP-ad1"/>
+                        <outlet property="peopleBtn" destination="5ye-cf-YP5" id="e9E-Rf-IcD"/>
                         <outlet property="placesBtn" destination="s5a-pa-N0E" id="BhA-Zl-mVc"/>
                     </connections>
                 </viewController>

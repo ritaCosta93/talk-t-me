@@ -9,6 +9,7 @@
 import UIKit
 
 class EmotionsViewController: UIViewController {
+    @IBOutlet var emotionsView: UIView!
     @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var peopleBtn: UIButton!
     @IBOutlet weak var foodBtn: UIButton!

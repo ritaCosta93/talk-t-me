@@ -9,6 +9,7 @@
 import UIKit
 
 class ColorsViewController: UIViewController {
+    @IBOutlet var colorsView: UIView!
     @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var peopleBtn: UIButton!
     @IBOutlet weak var foodBtn: UIButton!

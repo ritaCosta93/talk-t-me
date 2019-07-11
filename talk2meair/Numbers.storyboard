@@ -13,8 +13,8 @@
         <!--Numbers View Controller-->
         <scene sceneID="dPh-IJ-ANu">
             <objects>
-                <viewController id="wdg-WS-ISB" customClass="NumbersViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Adb-3y-2pv">
+                <viewController storyboardIdentifier="numbersViewController" id="wdg-WS-ISB" customClass="NumbersViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Adb-3y-2pv" userLabel="numbersView">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -123,6 +123,7 @@
                         <outlet property="foodBtn" destination="w2N-GB-SXB" id="EwJ-Pr-ZAv"/>
                         <outlet property="homeBtn" destination="fzZ-y6-zLY" id="FZg-Bt-fZd"/>
                         <outlet property="numbersBtn" destination="83j-Mu-zVU" id="a2B-yZ-wpb"/>
+                        <outlet property="numbersView" destination="Adb-3y-2pv" id="rz8-m8-F7L"/>
                         <outlet property="peopleBtn" destination="Lfc-Yf-I5b" id="cDr-Os-gBv"/>
                         <outlet property="placesBtn" destination="0oq-aa-Zcq" id="Yzy-YH-YJo"/>
                     </connections>

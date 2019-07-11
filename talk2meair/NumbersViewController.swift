@@ -9,6 +9,7 @@
 import UIKit
 
 class NumbersViewController: UIViewController {
+    @IBOutlet var numbersView: UIView!
     @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var peopleBtn: UIButton!
     @IBOutlet weak var foodBtn: UIButton!

@@ -13,8 +13,8 @@
         <!--Places View Controller-->
         <scene sceneID="Fea-Cb-sR5">
             <objects>
-                <viewController id="kry-kB-Cfg" customClass="PlacesViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tHY-CA-gTC">
+                <viewController storyboardIdentifier="placesViewController" id="kry-kB-Cfg" customClass="PlacesViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHY-CA-gTC" userLabel="placesView">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -105,6 +105,7 @@
                         <outlet property="numbersBtn" destination="hHU-Kc-oVc" id="7Ul-fJ-01b"/>
                         <outlet property="peopleBtn" destination="2SL-8G-2DC" id="1Rm-HM-r0i"/>
                         <outlet property="placesBtn" destination="Kfe-3F-0cB" id="C8u-Mo-xas"/>
+                        <outlet property="placesView" destination="tHY-CA-gTC" id="s5Q-ae-6hK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hP6-2b-bgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>

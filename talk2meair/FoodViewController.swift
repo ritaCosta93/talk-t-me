@@ -9,6 +9,8 @@
 import UIKit
 
 class FoodViewController: UIViewController {
+    
+    @IBOutlet var foodView: UIView!
     @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var peopleBtn: UIButton!
     @IBOutlet weak var foodBtn: UIButton!

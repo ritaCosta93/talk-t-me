@@ -13,8 +13,8 @@
         <!--Colors View Controller-->
         <scene sceneID="UNv-3p-AKh">
             <objects>
-                <viewController id="J57-fw-BW3" customClass="ColorsViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="LWY-1T-gEZ">
+                <viewController storyboardIdentifier="colorsViewController" id="J57-fw-BW3" customClass="ColorsViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LWY-1T-gEZ" userLabel="colorsView">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -119,6 +119,7 @@
                     </view>
                     <connections>
                         <outlet property="colorsBtn" destination="1DN-rt-raj" id="Qdj-M3-Odo"/>
+                        <outlet property="colorsView" destination="LWY-1T-gEZ" id="Z7M-HF-Sg7"/>
                         <outlet property="emotionsBtn" destination="yaJ-wA-cyQ" id="JvE-ln-Mcj"/>
                         <outlet property="foodBtn" destination="ZKN-21-TZ9" id="oHu-tm-JBt"/>
                         <outlet property="homeBtn" destination="bip-HU-cwB" id="7VX-VX-Kou"/>

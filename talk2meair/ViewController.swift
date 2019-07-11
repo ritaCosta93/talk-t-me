@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var mainView: UIView!
     @IBOutlet weak var homeBtn: UIButton!
     @IBOutlet weak var peopleBtn: UIButton!
     @IBOutlet weak var foodBtn: UIButton!
@@ -21,8 +22,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-
+    
+    
 }
 

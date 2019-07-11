@@ -13,8 +13,8 @@
         <!--Food View Controller-->
         <scene sceneID="IVY-8s-k7s">
             <objects>
-                <viewController id="bzq-9I-YcS" customClass="FoodViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eBx-SR-9dk">
+                <viewController storyboardIdentifier="foodViewController" id="bzq-9I-YcS" customClass="FoodViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eBx-SR-9dk" userLabel="foodView">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -106,6 +106,7 @@
                         <outlet property="colorsBtn" destination="u3o-5r-ub0" id="YHk-CC-KhW"/>
                         <outlet property="emotionsBtn" destination="aeD-Uz-7p3" id="pQa-BG-xM7"/>
                         <outlet property="foodBtn" destination="foy-M0-aXc" id="Olj-Ap-xv6"/>
+                        <outlet property="foodView" destination="eBx-SR-9dk" id="Hg4-IQ-fs1"/>
                         <outlet property="homeBtn" destination="cE6-eO-CGo" id="RV5-KC-QmO"/>
                         <outlet property="numbersBtn" destination="ETV-zS-IIA" id="6yD-NW-xHo"/>
                         <outlet property="peopleBtn" destination="RTM-KE-w8Y" id="kTI-4q-GBZ"/>

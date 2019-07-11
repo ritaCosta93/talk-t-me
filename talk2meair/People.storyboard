@@ -13,8 +13,8 @@
         <!--People View Controller-->
         <scene sceneID="vqP-cZ-Wii">
             <objects>
-                <viewController id="Q9g-LX-ZQz" customClass="PeopleViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ham-v3-Z5J">
+                <viewController storyboardIdentifier="peopleViewController" id="Q9g-LX-ZQz" customClass="PeopleViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ham-v3-Z5J" userLabel="peopleView">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -109,6 +109,7 @@
                         <outlet property="homeBtn" destination="khA-QX-hh7" id="JDv-Hv-JWL"/>
                         <outlet property="numbersBtn" destination="rad-D4-qSR" id="1rM-qb-iqi"/>
                         <outlet property="peopleBtn" destination="uig-Kb-jaN" id="grX-05-EUl"/>
+                        <outlet property="peopleView" destination="ham-v3-Z5J" id="uvn-ef-6OH"/>
                         <outlet property="placesBtn" destination="PG5-an-5F0" id="Ine-CQ-8Uu"/>
                     </connections>
                 </viewController>

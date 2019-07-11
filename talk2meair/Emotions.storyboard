@@ -13,8 +13,8 @@
         <!--Emotions View Controller-->
         <scene sceneID="PQJ-xW-SbI">
             <objects>
-                <viewController id="mYX-1C-4k2" customClass="EmotionsViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4cp-4N-WEN">
+                <viewController storyboardIdentifier="emotionsViewController" id="mYX-1C-4k2" customClass="EmotionsViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4cp-4N-WEN" userLabel="emotionsView">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -100,6 +100,7 @@
                     <connections>
                         <outlet property="colorsBtn" destination="Epm-Y4-MFG" id="b4z-Gm-ykS"/>
                         <outlet property="emotionsBtn" destination="nKQ-gJ-FsF" id="PiD-2d-QYh"/>
+                        <outlet property="emotionsView" destination="4cp-4N-WEN" id="NA9-kI-ucD"/>
                         <outlet property="foodBtn" destination="NAX-lW-xx4" id="TCp-RX-xXb"/>
                         <outlet property="homeBtn" destination="DOi-Q3-2ek" id="Rjf-ef-Tya"/>
                         <outlet property="numbersBtn" destination="gxT-td-AdA" id="EMG-EL-kLd"/>
