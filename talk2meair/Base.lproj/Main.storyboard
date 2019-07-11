@@ -10,10 +10,66 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--homeViewController-->
+        <scene sceneID="5yb-kW-g1f">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="homeViewController" id="FcC-lz-bUb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pwu-q1-AoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-234" y="-452"/>
+        </scene>
+        <!--peopleViewController-->
+        <scene sceneID="qPn-z3-9Tb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="People" referencedIdentifier="peopleViewController" id="a8v-Ds-qPf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="142-ic-GiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-231" y="-424"/>
+        </scene>
+        <!--colorsViewController-->
+        <scene sceneID="Vn3-Ux-X9Q">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Colors" referencedIdentifier="colorsViewController" id="OJz-4G-wza" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xNv-rA-TBG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-123" y="-451"/>
+        </scene>
+        <!--numbersViewController-->
+        <scene sceneID="Q3A-tP-7c9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Numbers" referencedIdentifier="numbersViewController" id="NKf-31-XvB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="28j-g3-cLE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-123" y="-419"/>
+        </scene>
+        <!--foodViewController-->
+        <scene sceneID="wat-wm-CmO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Food" referencedIdentifier="foodViewController" id="ZbX-uH-nVl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TOQ-z2-fz5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-234" y="-396"/>
+        </scene>
+        <!--placesViewController-->
+        <scene sceneID="vmp-9k-4lp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Places" referencedIdentifier="placesViewController" id="TLu-fZ-LHW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cJB-RB-f5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-231" y="-364"/>
+        </scene>
+        <!--emotionsViewController-->
+        <scene sceneID="iJQ-hY-OA8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Emotions" referencedIdentifier="emotionsViewController" id="3hQ-bq-MdI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tmv-eb-DK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-231" y="-331"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="talk2meair" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="mainView">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,36 +87,54 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the people screen" label="People Button"/>
                                 <state key="normal" image="people-btn"/>
+                                <connections>
+                                    <segue destination="a8v-Ds-qPf" kind="show" id="cz1-ax-Dpc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c18-1p-4nQ" userLabel="food-btn">
                                 <rect key="frame" x="0.0" y="217" width="100" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the food screen" label="Food Button"/>
                                 <state key="normal" backgroundImage="food-btn"/>
+                                <connections>
+                                    <segue destination="ZbX-uH-nVl" kind="show" id="Sk9-md-14a"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5a-pa-N0E" userLabel="places-btn">
                                 <rect key="frame" x="0.0" y="320" width="100" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the places screen" label="Places Button"/>
                                 <state key="normal" backgroundImage="places-btn"/>
+                                <connections>
+                                    <segue destination="TLu-fZ-LHW" kind="show" id="PdY-BB-XZF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8a-67-7PM" userLabel="emotions-btn">
                                 <rect key="frame" x="0.0" y="423" width="100" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the emotions screen" label="Emotions Button"/>
                                 <state key="normal" backgroundImage="emotions-btn"/>
+                                <connections>
+                                    <segue destination="3hQ-bq-MdI" kind="show" id="Mf5-es-OzO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qe6-RU-zGQ" userLabel="colors-btn">
                                 <rect key="frame" x="0.0" y="526" width="100" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the colors screen" label="Colors Button"/>
                                 <state key="normal" backgroundImage="colors-btn"/>
+                                <connections>
+                                    <segue destination="OJz-4G-wza" kind="show" id="kdd-im-XFg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgy-oy-h4A" userLabel="numbers-btn">
                                 <rect key="frame" x="0.0" y="629" width="100" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the numbers screen" label="Numbers Button"/>
                                 <state key="normal" backgroundImage="numbers-btn"/>
+                                <connections>
+                                    <segue destination="NKf-31-XvB" kind="show" id="4Sh-9R-SRP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5m-wK-aHh" userLabel="home-btn">
                                 <rect key="frame" x="0.0" y="20" width="100" height="95"/>
@@ -69,6 +143,7 @@
                                 <state key="normal" backgroundImage="home-btn"/>
                                 <connections>
                                     <action selector="homeBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5h-Ti-TfN"/>
+                                    <segue destination="FcC-lz-bUb" kind="show" id="exe-A7-zsN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVa-KS-z1L" userLabel="me-btn">
