@@ -7,9 +7,66 @@
 //
 
 import UIKit
-
+import AVFoundation
 class PlacesViewController: UIViewController {
-
+    @IBOutlet weak var homeBtn: UIButton!
+    @IBOutlet weak var peopleBtn: UIButton!
+    @IBOutlet weak var foodBtn: UIButton!
+    @IBOutlet weak var placesBtn: UIButton!
+    @IBOutlet weak var emotionsBtn: UIButton!
+    @IBOutlet weak var colorsBtn: UIButton!
+    @IBOutlet weak var numbersBtn: UIButton!
+    
+    //speak Home
+    @IBAction func speakHome(_ sender: Any) {
+        let synthesizer = AVSpeechSynthesizer();
+        let utterance = AVSpeechUtterance( string: "Home")
+        synthesizer.speak(utterance)
+    }
+    
+    //speak People
+    @IBAction func speakPeople(_ sender: Any) {
+        let synthesizer = AVSpeechSynthesizer();
+        let utterance = AVSpeechUtterance( string: "People")
+        synthesizer.speak(utterance)
+    }
+    
+    //speak Food
+    @IBAction func speakFood(_ sender: Any) {
+        let synthesizer = AVSpeechSynthesizer();
+        let utterance = AVSpeechUtterance( string: "Food")
+        synthesizer.speak(utterance)
+    }
+    
+    //speak Places
+    @IBAction func speakPlaces(_ sender: Any) {
+        let synthesizer = AVSpeechSynthesizer();
+        let utterance = AVSpeechUtterance( string: "Places")
+        synthesizer.speak(utterance)
+    }
+    
+    //speak Emotions
+    @IBAction func speakEmotions(_ sender: Any) {
+        let synthesizer = AVSpeechSynthesizer();
+        let utterance = AVSpeechUtterance( string: "Emotions")
+        synthesizer.speak(utterance)
+    }
+    
+    //speak Colors
+    @IBAction func speakColors(_ sender: Any) {
+        let synthesizer = AVSpeechSynthesizer();
+        let utterance = AVSpeechUtterance( string: "Colors")
+        synthesizer.speak(utterance)
+    }
+    
+    //speak Numbers
+    @IBAction func speakNumbers(_ sender: Any) {
+        let synthesizer = AVSpeechSynthesizer();
+        let utterance = AVSpeechUtterance( string: "Numbers")
+        synthesizer.speak(utterance)
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

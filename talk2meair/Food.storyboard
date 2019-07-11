@@ -24,6 +24,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the people screen" label="People Button"/>
                                 <state key="normal" image="people-btn"/>
                                 <connections>
+                                    <action selector="speakPeople:" destination="bzq-9I-YcS" eventType="touchUpInside" id="0gs-By-glN"/>
                                     <segue destination="qg4-df-zDN" kind="show" id="WFD-2t-MdN"/>
                                 </connections>
                             </button>
@@ -33,6 +34,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the food screen" label="Food Button"/>
                                 <state key="normal" backgroundImage="food-btn"/>
                                 <connections>
+                                    <action selector="speakFood:" destination="bzq-9I-YcS" eventType="touchUpInside" id="G54-9T-cDO"/>
                                     <segue destination="f04-xI-Q9i" kind="show" id="i23-y5-oV2"/>
                                 </connections>
                             </button>
@@ -42,6 +44,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the places screen" label="Places Button"/>
                                 <state key="normal" backgroundImage="places-btn"/>
                                 <connections>
+                                    <action selector="speakPlaces:" destination="bzq-9I-YcS" eventType="touchUpInside" id="LV4-Q4-Hux"/>
                                     <segue destination="DXy-KJ-orf" kind="show" id="Gcc-E9-PDm"/>
                                 </connections>
                             </button>
@@ -51,6 +54,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the emotions screen" label="Emotions Button"/>
                                 <state key="normal" backgroundImage="emotions-btn"/>
                                 <connections>
+                                    <action selector="speakEmotions:" destination="bzq-9I-YcS" eventType="touchUpInside" id="XaT-Uf-hM2"/>
                                     <segue destination="72q-JI-x3v" kind="show" id="f00-wj-lSO"/>
                                 </connections>
                             </button>
@@ -60,6 +64,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the colors screen" label="Colors Button"/>
                                 <state key="normal" backgroundImage="colors-btn"/>
                                 <connections>
+                                    <action selector="speakColors:" destination="bzq-9I-YcS" eventType="touchUpInside" id="gMY-XW-rxd"/>
                                     <segue destination="eHI-Ku-23O" kind="show" id="mut-ra-OqV"/>
                                 </connections>
                             </button>
@@ -69,6 +74,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the home screen" label="Home button"/>
                                 <state key="normal" backgroundImage="home-btn"/>
                                 <connections>
+                                    <action selector="speakHome:" destination="bzq-9I-YcS" eventType="touchUpInside" id="cOS-7p-UWe"/>
                                     <segue destination="Pch-PN-4FH" kind="show" id="k1m-IB-Egk"/>
                                 </connections>
                             </button>
@@ -86,6 +92,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="This button goes to the numbers screen" label="Numbers Button"/>
                                 <state key="normal" backgroundImage="numbers-btn"/>
                                 <connections>
+                                    <action selector="speakNumbers:" destination="bzq-9I-YcS" eventType="touchUpInside" id="B1y-Eg-0vf"/>
                                     <segue destination="CR5-CT-IpG" kind="show" id="vGW-BJ-cEz"/>
                                 </connections>
                             </button>
@@ -123,6 +130,15 @@
                         <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="bM6-bd-HFK"/>
                     </view>
+                    <connections>
+                        <outlet property="colorsBtn" destination="u3o-5r-ub0" id="huK-Vd-7Pt"/>
+                        <outlet property="emotionsBtn" destination="aeD-Uz-7p3" id="Xvo-S5-6zK"/>
+                        <outlet property="foodBtn" destination="foy-M0-aXc" id="esj-AW-L26"/>
+                        <outlet property="homeBtn" destination="cE6-eO-CGo" id="fTC-gm-ocm"/>
+                        <outlet property="numbersBtn" destination="ETV-zS-IIA" id="jFt-Yh-TwN"/>
+                        <outlet property="peopleBtn" destination="RTM-KE-w8Y" id="wr0-zN-orn"/>
+                        <outlet property="placesBtn" destination="GqS-a1-Rpy" id="JRQ-5G-RTZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLo-uF-3i1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
