@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CA1988A22D7957B005CD5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1988922D7957B005CD5BF /* AppDelegate.swift */; };
+		7CA1988C22D7957B005CD5BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1988B22D7957B005CD5BF /* ViewController.swift */; };
+		7CA1988F22D7957B005CD5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1988D22D7957B005CD5BF /* Main.storyboard */; };
+		7CA1989422D7957D005CD5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1989222D7957D005CD5BF /* LaunchScreen.storyboard */; };
+		7CA1989F22D7957D005CD5BF /* talk_t_me_air_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1989E22D7957D005CD5BF /* talk_t_me_air_v2Tests.swift */; };
+		7CA198AA22D7957D005CD5BF /* talk_t_me_air_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA198A922D7957D005CD5BF /* talk_t_me_air_v2UITests.swift */; };
+		7CA198C322D795EB005CD5BF /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA198B722D795EA005CD5BF /* FoodViewController.swift */; };
+		7CA198C422D795EB005CD5BF /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA198B822D795EA005CD5BF /* PeopleViewController.swift */; };
+		7CA198C522D795EB005CD5BF /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA198B922D795EB005CD5BF /* PlacesViewController.swift */; };
+		7CA198C622D795EB005CD5BF /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA198BA22D795EB005CD5BF /* ColorsViewController.swift */; };
+		7CA198C722D795EB005CD5BF /* Colors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA198BB22D795EB005CD5BF /* Colors.storyboard */; };
+		7CA198C822D795EB005CD5BF /* Emotions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA198BC22D795EB005CD5BF /* Emotions.storyboard */; };
+		7CA198C922D795EB005CD5BF /* Food.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA198BD22D795EB005CD5BF /* Food.storyboard */; };
+		7CA198CA22D795EB005CD5BF /* Places.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA198BE22D795EB005CD5BF /* Places.storyboard */; };
+		7CA198CB22D795EB005CD5BF /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA198BF22D795EB005CD5BF /* EmotionsViewController.swift */; };
+		7CA198CC22D795EB005CD5BF /* Numbers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA198C022D795EB005CD5BF /* Numbers.storyboard */; };
+		7CA198CD22D795EB005CD5BF /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA198C122D795EB005CD5BF /* NumbersViewController.swift */; };
+		7CA198CE22D795EB005CD5BF /* People.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA198C222D795EB005CD5BF /* People.storyboard */; };
+		7CA198D222D7F1C0005CD5BF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA198D122D7F1C0005CD5BF /* Media.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CA1989B22D7957D005CD5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA1987E22D7957B005CD5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA1988522D7957B005CD5BF;
+			remoteInfo = "talk-t-me-air-v2";
+		};
+		7CA198A622D7957D005CD5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA1987E22D7957B005CD5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA1988522D7957B005CD5BF;
+			remoteInfo = "talk-t-me-air-v2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CA1988622D7957B005CD5BF /* talk-t-me-air-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "talk-t-me-air-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA1988922D7957B005CD5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CA1988B22D7957B005CD5BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CA1988E22D7957B005CD5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CA1989322D7957D005CD5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CA1989522D7957D005CD5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA1989A22D7957D005CD5BF /* talk-t-me-air-v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "talk-t-me-air-v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA1989E22D7957D005CD5BF /* talk_t_me_air_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talk_t_me_air_v2Tests.swift; sourceTree = "<group>"; };
+		7CA198A022D7957D005CD5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA198A522D7957D005CD5BF /* talk-t-me-air-v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "talk-t-me-air-v2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA198A922D7957D005CD5BF /* talk_t_me_air_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talk_t_me_air_v2UITests.swift; sourceTree = "<group>"; };
+		7CA198AB22D7957D005CD5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA198B722D795EA005CD5BF /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodViewController.swift; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/FoodViewController.swift"; sourceTree = "<group>"; };
+		7CA198B822D795EA005CD5BF /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeopleViewController.swift; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/PeopleViewController.swift"; sourceTree = "<group>"; };
+		7CA198B922D795EB005CD5BF /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesViewController.swift; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/PlacesViewController.swift"; sourceTree = "<group>"; };
+		7CA198BA22D795EB005CD5BF /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorsViewController.swift; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/ColorsViewController.swift"; sourceTree = "<group>"; };
+		7CA198BB22D795EB005CD5BF /* Colors.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Colors.storyboard; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/Colors.storyboard"; sourceTree = "<group>"; };
+		7CA198BC22D795EB005CD5BF /* Emotions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Emotions.storyboard; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/Emotions.storyboard"; sourceTree = "<group>"; };
+		7CA198BD22D795EB005CD5BF /* Food.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Food.storyboard; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/Food.storyboard"; sourceTree = "<group>"; };
+		7CA198BE22D795EB005CD5BF /* Places.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Places.storyboard; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/Places.storyboard"; sourceTree = "<group>"; };
+		7CA198BF22D795EB005CD5BF /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmotionsViewController.swift; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/EmotionsViewController.swift"; sourceTree = "<group>"; };
+		7CA198C022D795EB005CD5BF /* Numbers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Numbers.storyboard; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/Numbers.storyboard"; sourceTree = "<group>"; };
+		7CA198C122D795EB005CD5BF /* NumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumbersViewController.swift; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/NumbersViewController.swift"; sourceTree = "<group>"; };
+		7CA198C222D795EB005CD5BF /* People.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = People.storyboard; path = "../../../../Dropbox/talk2meair/talk-t-me/talk2meair/People.storyboard"; sourceTree = "<group>"; };
+		7CA198D122D7F1C0005CD5BF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Assets.xcassets/Media.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CA1988322D7957B005CD5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA1989722D7957D005CD5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA198A222D7957D005CD5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CA1987D22D7957B005CD5BF = {
+			isa = PBXGroup;
+			children = (
+				7CA1988822D7957B005CD5BF /* talk-t-me-air-v2 */,
+				7CA1989D22D7957D005CD5BF /* talk-t-me-air-v2Tests */,
+				7CA198A822D7957D005CD5BF /* talk-t-me-air-v2UITests */,
+				7CA1988722D7957B005CD5BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CA1988722D7957B005CD5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1988622D7957B005CD5BF /* talk-t-me-air-v2.app */,
+				7CA1989A22D7957D005CD5BF /* talk-t-me-air-v2Tests.xctest */,
+				7CA198A522D7957D005CD5BF /* talk-t-me-air-v2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CA1988822D7957B005CD5BF /* talk-t-me-air-v2 */ = {
+			isa = PBXGroup;
+			children = (
+				7CA198BB22D795EB005CD5BF /* Colors.storyboard */,
+				7CA198BA22D795EB005CD5BF /* ColorsViewController.swift */,
+				7CA198BC22D795EB005CD5BF /* Emotions.storyboard */,
+				7CA198BF22D795EB005CD5BF /* EmotionsViewController.swift */,
+				7CA198BD22D795EB005CD5BF /* Food.storyboard */,
+				7CA198B722D795EA005CD5BF /* FoodViewController.swift */,
+				7CA198C022D795EB005CD5BF /* Numbers.storyboard */,
+				7CA198C122D795EB005CD5BF /* NumbersViewController.swift */,
+				7CA198C222D795EB005CD5BF /* People.storyboard */,
+				7CA198B822D795EA005CD5BF /* PeopleViewController.swift */,
+				7CA198BE22D795EB005CD5BF /* Places.storyboard */,
+				7CA198B922D795EB005CD5BF /* PlacesViewController.swift */,
+				7CA1988922D7957B005CD5BF /* AppDelegate.swift */,
+				7CA1988B22D7957B005CD5BF /* ViewController.swift */,
+				7CA1988D22D7957B005CD5BF /* Main.storyboard */,
+				7CA1989222D7957D005CD5BF /* LaunchScreen.storyboard */,
+				7CA1989522D7957D005CD5BF /* Info.plist */,
+				7CA198D122D7F1C0005CD5BF /* Media.xcassets */,
+			);
+			path = "talk-t-me-air-v2";
+			sourceTree = "<group>";
+		};
+		7CA1989D22D7957D005CD5BF /* talk-t-me-air-v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1989E22D7957D005CD5BF /* talk_t_me_air_v2Tests.swift */,
+				7CA198A022D7957D005CD5BF /* Info.plist */,
+			);
+			path = "talk-t-me-air-v2Tests";
+			sourceTree = "<group>";
+		};
+		7CA198A822D7957D005CD5BF /* talk-t-me-air-v2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA198A922D7957D005CD5BF /* talk_t_me_air_v2UITests.swift */,
+				7CA198AB22D7957D005CD5BF /* Info.plist */,
+			);
+			path = "talk-t-me-air-v2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CA1988522D7957B005CD5BF /* talk-t-me-air-v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA198AE22D7957D005CD5BF /* Build configuration list for PBXNativeTarget "talk-t-me-air-v2" */;
+			buildPhases = (
+				7CA1988222D7957B005CD5BF /* Sources */,
+				7CA1988322D7957B005CD5BF /* Frameworks */,
+				7CA1988422D7957B005CD5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "talk-t-me-air-v2";
+			productName = "talk-t-me-air-v2";
+			productReference = 7CA1988622D7957B005CD5BF /* talk-t-me-air-v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CA1989922D7957D005CD5BF /* talk-t-me-air-v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA198B122D7957D005CD5BF /* Build configuration list for PBXNativeTarget "talk-t-me-air-v2Tests" */;
+			buildPhases = (
+				7CA1989622D7957D005CD5BF /* Sources */,
+				7CA1989722D7957D005CD5BF /* Frameworks */,
+				7CA1989822D7957D005CD5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA1989C22D7957D005CD5BF /* PBXTargetDependency */,
+			);
+			name = "talk-t-me-air-v2Tests";
+			productName = "talk-t-me-air-v2Tests";
+			productReference = 7CA1989A22D7957D005CD5BF /* talk-t-me-air-v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CA198A422D7957D005CD5BF /* talk-t-me-air-v2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA198B422D7957D005CD5BF /* Build configuration list for PBXNativeTarget "talk-t-me-air-v2UITests" */;
+			buildPhases = (
+				7CA198A122D7957D005CD5BF /* Sources */,
+				7CA198A222D7957D005CD5BF /* Frameworks */,
+				7CA198A322D7957D005CD5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA198A722D7957D005CD5BF /* PBXTargetDependency */,
+			);
+			name = "talk-t-me-air-v2UITests";
+			productName = "talk-t-me-air-v2UITests";
+			productReference = 7CA198A522D7957D005CD5BF /* talk-t-me-air-v2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CA1987E22D7957B005CD5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ritacosta;
+				TargetAttributes = {
+					7CA1988522D7957B005CD5BF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7CA1989922D7957D005CD5BF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7CA1988522D7957B005CD5BF;
+					};
+					7CA198A422D7957D005CD5BF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7CA1988522D7957B005CD5BF;
+					};
+				};
+			};
+			buildConfigurationList = 7CA1988122D7957B005CD5BF /* Build configuration list for PBXProject "talk-t-me-air-v2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CA1987D22D7957B005CD5BF;
+			productRefGroup = 7CA1988722D7957B005CD5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CA1988522D7957B005CD5BF /* talk-t-me-air-v2 */,
+				7CA1989922D7957D005CD5BF /* talk-t-me-air-v2Tests */,
+				7CA198A422D7957D005CD5BF /* talk-t-me-air-v2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CA1988422D7957B005CD5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA198CE22D795EB005CD5BF /* People.storyboard in Resources */,
+				7CA198C922D795EB005CD5BF /* Food.storyboard in Resources */,
+				7CA198CA22D795EB005CD5BF /* Places.storyboard in Resources */,
+				7CA1989422D7957D005CD5BF /* LaunchScreen.storyboard in Resources */,
+				7CA198C822D795EB005CD5BF /* Emotions.storyboard in Resources */,
+				7CA198CC22D795EB005CD5BF /* Numbers.storyboard in Resources */,
+				7CA198C722D795EB005CD5BF /* Colors.storyboard in Resources */,
+				7CA198D222D7F1C0005CD5BF /* Media.xcassets in Resources */,
+				7CA1988F22D7957B005CD5BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA1989822D7957D005CD5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA198A322D7957D005CD5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CA1988222D7957B005CD5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA1988C22D7957B005CD5BF /* ViewController.swift in Sources */,
+				7CA198CD22D795EB005CD5BF /* NumbersViewController.swift in Sources */,
+				7CA198C422D795EB005CD5BF /* PeopleViewController.swift in Sources */,
+				7CA198C522D795EB005CD5BF /* PlacesViewController.swift in Sources */,
+				7CA198CB22D795EB005CD5BF /* EmotionsViewController.swift in Sources */,
+				7CA198C322D795EB005CD5BF /* FoodViewController.swift in Sources */,
+				7CA198C622D795EB005CD5BF /* ColorsViewController.swift in Sources */,
+				7CA1988A22D7957B005CD5BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA1989622D7957D005CD5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA1989F22D7957D005CD5BF /* talk_t_me_air_v2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA198A122D7957D005CD5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA198AA22D7957D005CD5BF /* talk_t_me_air_v2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CA1989C22D7957D005CD5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA1988522D7957B005CD5BF /* talk-t-me-air-v2 */;
+			targetProxy = 7CA1989B22D7957D005CD5BF /* PBXContainerItemProxy */;
+		};
+		7CA198A722D7957D005CD5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA1988522D7957B005CD5BF /* talk-t-me-air-v2 */;
+			targetProxy = 7CA198A622D7957D005CD5BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CA1988D22D7957B005CD5BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA1988E22D7957B005CD5BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CA1989222D7957D005CD5BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA1989322D7957D005CD5BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CA198AC22D7957D005CD5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CA198AD22D7957D005CD5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CA198AF22D7957D005CD5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "talk-t-me-air-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ritacosta.talk-t-me-air-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CA198B022D7957D005CD5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "talk-t-me-air-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ritacosta.talk-t-me-air-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CA198B222D7957D005CD5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "talk-t-me-air-v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ritacosta.talk-t-me-air-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talk-t-me-air-v2.app/talk-t-me-air-v2";
+			};
+			name = Debug;
+		};
+		7CA198B322D7957D005CD5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "talk-t-me-air-v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ritacosta.talk-t-me-air-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talk-t-me-air-v2.app/talk-t-me-air-v2";
+			};
+			name = Release;
+		};
+		7CA198B522D7957D005CD5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "talk-t-me-air-v2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ritacosta.talk-t-me-air-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "talk-t-me-air-v2";
+			};
+			name = Debug;
+		};
+		7CA198B622D7957D005CD5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "talk-t-me-air-v2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ritacosta.talk-t-me-air-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "talk-t-me-air-v2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CA1988122D7957B005CD5BF /* Build configuration list for PBXProject "talk-t-me-air-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA198AC22D7957D005CD5BF /* Debug */,
+				7CA198AD22D7957D005CD5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA198AE22D7957D005CD5BF /* Build configuration list for PBXNativeTarget "talk-t-me-air-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA198AF22D7957D005CD5BF /* Debug */,
+				7CA198B022D7957D005CD5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA198B122D7957D005CD5BF /* Build configuration list for PBXNativeTarget "talk-t-me-air-v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA198B222D7957D005CD5BF /* Debug */,
+				7CA198B322D7957D005CD5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA198B422D7957D005CD5BF /* Build configuration list for PBXNativeTarget "talk-t-me-air-v2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA198B522D7957D005CD5BF /* Debug */,
+				7CA198B622D7957D005CD5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CA1987E22D7957B005CD5BF /* Project object */;
+}
