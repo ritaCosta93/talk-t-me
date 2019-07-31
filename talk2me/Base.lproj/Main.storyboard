@@ -36,10 +36,15 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="you-btn" translatesAutoresizingMaskIntoConstraints="NO" id="W8Y-db-bS9">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="38"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - You">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4e-Xm-L1r">
                                                 <rect key="frame" x="0.0" y="38" width="110" height="30"/>
                                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - You"/>
                                                 <state key="normal" title="You">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -59,6 +64,10 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me-btn" translatesAutoresizingMaskIntoConstraints="NO" id="eaN-qN-iAX">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="42"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - Me">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evg-7a-q16">
                                                 <rect key="frame" x="0.0" y="42" width="110" height="30"/>
@@ -79,10 +88,15 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="they-btn" translatesAutoresizingMaskIntoConstraints="NO" id="gNy-zM-zMT">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="40"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - They">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIQ-xf-aoG" userLabel="They">
                                                 <rect key="frame" x="0.0" y="40" width="110" height="30"/>
                                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - They"/>
                                                 <state key="normal" title="They">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -99,10 +113,15 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="he-btn" translatesAutoresizingMaskIntoConstraints="NO" id="EVP-CG-NCR">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="40"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - He">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sss-Iw-XON" userLabel="They">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sss-Iw-XON" userLabel="He">
                                                 <rect key="frame" x="0.0" y="40" width="110" height="30"/>
                                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - He"/>
                                                 <state key="normal" title="He">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -119,6 +138,10 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="she-btn" translatesAutoresizingMaskIntoConstraints="NO" id="6kD-qc-o7m">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="41"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - She">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clh-aK-ZTg" userLabel="She">
                                                 <rect key="frame" x="0.0" y="41" width="110" height="30"/>
@@ -139,10 +162,15 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="it-btn" translatesAutoresizingMaskIntoConstraints="NO" id="fm4-PD-pes">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="40"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - It">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIg-JE-I06" userLabel="She">
                                                 <rect key="frame" x="0.0" y="40" width="110" height="30"/>
                                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <accessibility key="accessibilityConfiguration" label="People - It"/>
                                                 <state key="normal" title="It">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -2348,11 +2376,11 @@
         <image name="you-btn" width="46" height="38"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="V49-dN-ln0"/>
-        <segue reference="abn-H1-w3C"/>
-        <segue reference="PuI-8E-lV5"/>
-        <segue reference="yUE-g7-u4q"/>
-        <segue reference="60K-HA-2dt"/>
-        <segue reference="Qu5-Aw-C0T"/>
+        <segue reference="06K-DS-1Ta"/>
+        <segue reference="Ajl-iL-hCG"/>
+        <segue reference="OIF-15-zun"/>
+        <segue reference="zqk-xl-WFk"/>
+        <segue reference="uWD-us-hJV"/>
+        <segue reference="7Xx-rt-ZKT"/>
     </inferredMetricsTieBreakers>
 </document>
