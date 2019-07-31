@@ -999,6 +999,9 @@
                                                 <state key="normal" title="You">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="youBtnPressed:" destination="dRN-hV-Od8" eventType="touchUpInside" id="wiV-aS-dQP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1019,6 +1022,9 @@
                                                 <state key="normal" title="Me">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="meBtnPressed:" destination="dRN-hV-Od8" eventType="touchUpInside" id="cR6-tl-Gjt"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1036,6 +1042,9 @@
                                                 <state key="normal" title="They">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="theyBtnPressed:" destination="dRN-hV-Od8" eventType="touchUpInside" id="KRF-fs-Fb8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1053,6 +1062,9 @@
                                                 <state key="normal" title="He">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="heBtnPressed:" destination="dRN-hV-Od8" eventType="touchUpInside" id="IcF-0u-FoK"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1070,6 +1082,9 @@
                                                 <state key="normal" title="She">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="sheBtnPressed:" destination="dRN-hV-Od8" eventType="touchUpInside" id="fZc-Y8-hhH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1087,6 +1102,9 @@
                                                 <state key="normal" title="It">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="itBtnPressed:" destination="dRN-hV-Od8" eventType="touchUpInside" id="Wbd-ty-JVD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1227,6 +1245,9 @@
                                                 <state key="normal" title="Bread">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="breadBtnPressed:" destination="qDY-wF-sbb" eventType="touchUpInside" id="Jd4-Sk-bN8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1248,6 +1269,9 @@
                                                 <state key="normal" title="Milk">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="milkBtnPressed:" destination="qDY-wF-sbb" eventType="touchUpInside" id="Ymu-bL-xNF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1266,6 +1290,9 @@
                                                 <state key="normal" title="Water">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="waterBtnPressed:" destination="qDY-wF-sbb" eventType="touchUpInside" id="36t-P0-yf1"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1284,6 +1311,9 @@
                                                 <state key="normal" title="Coffee">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="coffeeBtnPressed:" destination="qDY-wF-sbb" eventType="touchUpInside" id="5gU-Hr-O5X"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1302,6 +1332,9 @@
                                                 <state key="normal" title="Chips">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="chipsBtnPressed:" destination="qDY-wF-sbb" eventType="touchUpInside" id="7qB-rs-Hbt"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1320,6 +1353,9 @@
                                                 <state key="normal" title="Cookies">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cookiesBtnPressed:" destination="qDY-wF-sbb" eventType="touchUpInside" id="Vpc-5D-efW"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1411,6 +1447,9 @@
                                                 <state key="normal" title="Home">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="homeBtnPressed:" destination="2me-qJ-9ll" eventType="touchUpInside" id="rdm-ce-Xq4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1432,6 +1471,9 @@
                                                 <state key="normal" title="Bedroom">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="bedroomBtnPressed:" destination="2me-qJ-9ll" eventType="touchUpInside" id="TRn-wn-IVH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1450,6 +1492,9 @@
                                                 <state key="normal" title="Kitchen">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="kitchenBtnPressed:" destination="2me-qJ-9ll" eventType="touchUpInside" id="623-BV-1CY"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1468,6 +1513,9 @@
                                                 <state key="normal" title="Bathroom">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="bathroomBtnPressed:" destination="2me-qJ-9ll" eventType="touchUpInside" id="qWn-Id-wei"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1486,6 +1534,9 @@
                                                 <state key="normal" title="Outside">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="outsideBtnPressed:" destination="2me-qJ-9ll" eventType="touchUpInside" id="XQU-te-hSB"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1577,6 +1628,9 @@
                                                 <state key="normal" title="Happy">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="happyBtnPressed:" destination="fQi-SG-eXv" eventType="touchUpInside" id="8kv-ng-iYQ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1598,6 +1652,9 @@
                                                 <state key="normal" title="Sad">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="sadBtnPressed:" destination="fQi-SG-eXv" eventType="touchUpInside" id="E7e-Fa-Wi0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1616,6 +1673,9 @@
                                                 <state key="normal" title="Sick">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="sickBtnPressed:" destination="fQi-SG-eXv" eventType="touchUpInside" id="WS9-g4-1Nv"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1634,6 +1694,9 @@
                                                 <state key="normal" title="Hot">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="hotBtnPressed:" destination="fQi-SG-eXv" eventType="touchUpInside" id="9WH-KI-JUA"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1652,6 +1715,9 @@
                                                 <state key="normal" title="Cold">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="coldBtnPressed:" destination="fQi-SG-eXv" eventType="touchUpInside" id="hdk-vS-o3P"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1743,6 +1809,9 @@
                                                 <state key="normal" title="Blue">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="blueBtnPressed:" destination="dk5-bJ-8Ee" eventType="touchUpInside" id="On7-f3-yFi"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1764,6 +1833,9 @@
                                                 <state key="normal" title="Pink">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pinkBtnPressed:" destination="dk5-bJ-8Ee" eventType="touchUpInside" id="nVL-cv-YWX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1782,6 +1854,9 @@
                                                 <state key="normal" title="Purple">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="purpleBtnPressed:" destination="dk5-bJ-8Ee" eventType="touchUpInside" id="4GE-YZ-4uM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1800,6 +1875,9 @@
                                                 <state key="normal" title="Cyan">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cyanBtnPressed:" destination="dk5-bJ-8Ee" eventType="touchUpInside" id="igI-I0-3eg"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1818,6 +1896,9 @@
                                                 <state key="normal" title="Yellow">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="yellowBtnPressed:" destination="dk5-bJ-8Ee" eventType="touchUpInside" id="hVD-PZ-dKw"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1836,6 +1917,9 @@
                                                 <state key="normal" title="Orange">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="orangeBtnPressed:" destination="dk5-bJ-8Ee" eventType="touchUpInside" id="Uyq-e6-W36"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1854,6 +1938,9 @@
                                                 <state key="normal" title="Red">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="redBtnPressed:" destination="dk5-bJ-8Ee" eventType="touchUpInside" id="aVX-Ya-LN9"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1872,6 +1959,9 @@
                                                 <state key="normal" title="Black">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="blackBtnPressed:" destination="dk5-bJ-8Ee" eventType="touchUpInside" id="m0w-EB-bGj"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1890,6 +1980,9 @@
                                                 <state key="normal" title="White">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="whiteBtnPressed:" destination="dk5-bJ-8Ee" eventType="touchUpInside" id="RjA-Fn-UOj"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1981,6 +2074,9 @@
                                                 <state key="normal" title="One">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="oneBtnPressed:" destination="KGu-4T-LVM" eventType="touchUpInside" id="k0Z-fQ-Pas"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2002,6 +2098,9 @@
                                                 <state key="normal" title="Two">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="twoBtnPressed:" destination="KGu-4T-LVM" eventType="touchUpInside" id="NBn-gq-bqf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2020,6 +2119,9 @@
                                                 <state key="normal" title="Three">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="threeBtnPressed:" destination="KGu-4T-LVM" eventType="touchUpInside" id="KFK-cs-DRU"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2038,6 +2140,9 @@
                                                 <state key="normal" title="Four">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="fourBtnPressed:" destination="KGu-4T-LVM" eventType="touchUpInside" id="6Qz-Sa-sCZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2053,9 +2158,12 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8A-x1-Y5B">
                                                 <rect key="frame" x="0.0" y="70" width="110" height="30"/>
                                                 <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Four">
+                                                <state key="normal" title="Five">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="fiveBtnPressed:" destination="KGu-4T-LVM" eventType="touchUpInside" id="Wfq-vV-q6i"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2074,6 +2182,9 @@
                                                 <state key="normal" title="Six">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="sixBtnPressed:" destination="KGu-4T-LVM" eventType="touchUpInside" id="RiV-4O-1JU"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2092,6 +2203,9 @@
                                                 <state key="normal" title="Seven">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="sevenBtnPressed:" destination="KGu-4T-LVM" eventType="touchUpInside" id="Zg8-3v-w7U"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2110,6 +2224,9 @@
                                                 <state key="normal" title="Eight">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="eightBtnPressed:" destination="KGu-4T-LVM" eventType="touchUpInside" id="hB4-8P-Bek"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2128,6 +2245,9 @@
                                                 <state key="normal" title="Nine">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="nineBtnPressed:" destination="KGu-4T-LVM" eventType="touchUpInside" id="ZwE-EO-Mhh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2228,11 +2348,11 @@
         <image name="you-btn" width="46" height="38"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eTi-sF-mtH"/>
-        <segue reference="qDr-42-9ZY"/>
-        <segue reference="wKQ-3I-RkG"/>
-        <segue reference="KEO-E3-p5l"/>
-        <segue reference="DNj-P5-85G"/>
-        <segue reference="E7D-DX-llx"/>
+        <segue reference="Jpf-d0-ifb"/>
+        <segue reference="qaO-yj-uGT"/>
+        <segue reference="ho5-xR-Xbm"/>
+        <segue reference="NRA-BV-1VI"/>
+        <segue reference="LmQ-gu-7vf"/>
+        <segue reference="LWs-cH-3Xz"/>
     </inferredMetricsTieBreakers>
 </document>
