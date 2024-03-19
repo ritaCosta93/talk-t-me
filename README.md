@@ -1,6 +1,5 @@
 # Talk t’me
 
-## Screenshot
 ![Talk t’me Screenshot](./tl5vgw9fg9cw0ercx2pt.webp)
 
 ## Overview
