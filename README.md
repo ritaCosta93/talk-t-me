@@ -1,5 +1,8 @@
 # Talk t’me
 
+## Screenshot
+![Talk t’me Screenshot](./tl5vgw9fg9cw0ercx2pt.webp)
+
 ## Overview
 Talk t’me was created to give a voice to those who are non-verbal or have any kind of speech delay. This app aims to empower individuals who face challenges in communication by providing them with a platform where they can express themselves effectively.
 
